@@ -325,7 +325,11 @@ i.ci {
 #BlogH1{
     margin-top: 10vh;
 }
-
+#primary{
+    margin-top: 3vh;
+    padding-left: 2vh;
+    height: calc(100vh - 110vh);
+}
 .post {
     position: relative;
     border: solid 1px #ddd;
@@ -431,4 +435,16 @@ i.ci {
 }
 .btn{
     font-size: 18px;
+}
+#ResourceImg{
+    background: url('../img/stuff-feature.jpg') 50% 0% repeat fixed;
+    min-height: 20vh;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+#ResourceH1{
+    text-align: center;
+    margin-top: 10vh;
 }

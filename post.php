@@ -14,7 +14,7 @@
 
                     <article class="post">
                         <header class="header-post">
-                            <h1>Blog title here</h1>
+                            <h2 id="primary">Blog title here</h2>
                             <div class="post-details">
                             <hr>
                             <div class="post-details">
@@ -70,7 +70,7 @@
                         <h3 class="text-center">4 Comments </h3>
 
                         <div class="post-inside">
-                            <span  class="d-inline"><h3 class="d-inline">John Smith <small>August 7, 2014 </small></h3> </span>
+                            <span  class="d-inline"><h3 class="d-inline">John Smith <small>&bull; August 7, 2014 </small></h3> </span>
                             <p>
                             If you comment on something, you give your opinion about it or you give an explanation for it.
                             So far, Mr Cook has not commented on these reports. [V on n/wh]
@@ -88,7 +88,7 @@
                             </p>
 
                             <div class="post-inside"  style="background: #F4F3F4">
-                                <span  class="d-inline"><h3 class="d-inline">John Smith <small>August 7, 2014 </small></h3> </span>
+                                <span  class="d-inline"><h3 class="d-inline">John Smith <small>&bull; August 7, 2014 </small></h3> </span>
                                 <p>
                                 If you comment on something, you give your opinion about it or you give an explanation for it.
                                 So far, Mr Cook has not commented on these reports. [V on n/wh]
@@ -105,7 +105,7 @@
                                 Stuart commented that this was very true. [VERB that]
                                 </p>
                                     <div class="post-inside" style="background: #ECEBEC">
-                                        <span  class="d-inline"><h3 class="d-inline">John Smith <small>August 7, 2014 </small></h3> </span>
+                                        <span  class="d-inline"><h3 class="d-inline">John Smith <small>&bull; August 7, 2014 </small></h3> </span>
                                             <p>
                                             If you comment on something, you give your opinion about it or you give an explanation for it.
                                             So far, Mr Cook has not commented on these reports. [V on n/wh]
@@ -126,7 +126,7 @@
                         </div>
 
                         <div class="post-inside ">
-                                <span  class="d-inline"><h3 class="d-inline">Jane Smith <small>August 7, 2014 </small></h3> </span>
+                                <span  class="d-inline"><h3 class="d-inline">Jane Smith <small>&bull; August 7, 2014 </small></h3> </span>
                                 <p>
                                 If you comment on something, you give your opinion about it or you give an explanation for it.
                                 So far, Mr Cook has not commented on these reports. [V on n/wh]
