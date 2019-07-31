@@ -448,3 +448,26 @@ i.ci {
     text-align: center;
     margin-top: 10vh;
 }
+.resurce-p{
+    font-size: 20px;
+}
+
+#SourceImg{
+    background: url('../img/stuff-feature.jpg') 50% 0% repeat fixed;
+    min-height: 20vh;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+#SourceH1{
+    text-align: center;
+    margin-top: 10vh;
+}
+#inputText{
+    height: 10vh;
+}
+
+.col-sm-3{
+    padding-top: 2vh;
+}
