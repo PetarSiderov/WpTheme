@@ -1,0 +1,434 @@
+/* COLOUR REFERENCES 
+
+Green: #79b044
+Salmon: #dd5638
+Blue Gray: #3e4249
+
+*/
+
+/* === GENERAL === */
+body{
+    margin-top:50px;
+    font-family: 'proxima-nova', 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: url('../img/tile.jpg') top left repeat;
+}
+
+/* === GLOBAL === */
+
+h1,h2,h3,h4,h5,h6{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1,h2 {
+    margin: 0 0 40px;
+}
+
+h3{
+    margin: 20px 0;
+}
+h4 {
+    font-size: 18px;
+}
+a:link, a:visited{
+    color: #dd5638;
+}
+a:hover{
+    text-decoration: none;
+    color: #c9302c;
+
+}
+footer {
+    background: #3e4249;
+    color: white;
+    padding: 10px 0px 5px;
+    font-size: 12px;
+}
+footer p {
+    margin: 0;
+}
+footer a:link, footer a:visited{
+    color: white;
+}
+footer a:hover{
+    color: #dd5638;
+}
+footer li.signup-link a{
+    color: #dd5638;
+}
+footer li.signup-link a:hover{
+    font-weight: bold;
+}
+.btn {
+    font-weight: bold;
+}
+button.btn:focus{
+    outline: none !important;
+}
+button, input, .btn, a.btn { 
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+.btn-danger{
+    background-color: #dd5638;
+    border-collapse: #d95131;
+}
+.btn-success{
+    background: #77b044;
+    border: none;
+}
+.btn-success:hover{
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+}
+img {
+    max-width: 100%;
+}
+
+.modal-content {
+    background: url('../img/tile.jpg') top left repeat;
+}
+.badge.social{
+    background: #ccc;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 5px 20px 0;
+    padding: 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: white;
+}
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+}
+blockquote cite{
+    display: block;
+    color: #777;
+    margin: 15px 0 0 0;
+}
+blockquote:before {
+    display: none;
+}
+
+/* === Hero ===*/
+#hero {
+    background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
+    min-height: 500px;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#hero article{
+    width: 100%;
+    text-align: center;
+}
+#hero .hero-text {
+    margin-top: 30px;
+}
+#price-timeline {
+    margin: 30px 0 60px;
+    text-align: center;
+}
+#price-timeline .price{
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 30%;
+    background: #3e4249;
+    padding: 10px 20px 30px;
+    position: relative;
+    vertical-align: top;
+}
+
+#price-timeline .price.active{
+    background: #dd5638;
+}
+
+#price-timeline .price span{
+    background: #101010;
+    display: block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+#price-timeline h4 small{
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+/* === Layout === */
+
+section {
+    padding: 80px 0;
+}
+section h2 {
+    margin: 20px 0 40px;
+}
+section h3 {
+    margin: 30px 0 10px;
+}
+.section-header {
+    text-align: center;
+    max-width: 100%;
+}
+#optin{
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+#optin p {
+    margin: 7px 0 0 0;
+}
+#who-benefits{
+    background: white;
+}
+.img-responsive{
+    margin-top: 10vh;
+}
+#course-features{
+    background: #3e4249;
+    color: white;
+    text-align:  center;
+}
+#project-feature{
+    text-align: center;
+}
+#featurette{
+    background:url("../img/stuff-bg.jpg") 50% 100% repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#kudos{
+    text-align: center;
+}
+.col-xs-4{
+    left: -9vh;
+}
+#signup{
+    text-align: center;
+    background: url("../img/hipster-stuff.jpg") center center repeat fixed;
+    color: white;
+    background-size: cover;
+    padding: 140px 0;
+}
+#signup h2{
+    font-weight: normal;
+}
+#signup strong{
+    border-bottom: solid 2px #dd5638;
+}
+#signup .btn{
+    font-size: 24px;
+}
+
+.testimonial {
+    margin-bottom: 60px;
+}
+.testimonial img{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+i.ci {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url("../img/icon-sprite.png") no-repeat;
+}
+.ci.ci-computer { background-position: 0 0;}
+.ci.ci-watch { background-position: -40px 0;}
+.ci.ci-calendar { background-position: -80px 0;}
+.ci.ci-community { background-position: -120px 0;}
+.ci.ci-instructor { background-position: -160px 0;}
+.ci.ci-device { background-position: -200px 0;}
+
+#instructor .num{
+    display: table;
+    background: #dd5638;
+    display: block;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    position: absolute;
+    text-rendering: optimizeLegibility;
+    bottom: -50px;
+    left: 50%;
+}
+.marginInstructor{
+    margin-bottom: 20%;
+}
+
+/*=== Media Queries ===*/
+@media screen and (max-width: 568px){
+    #instructor .num{
+        height: 100px;
+        width: 100px;
+        font-size: 22px;
+    }
+
+    #instructor .num span{
+        font-size: 16px
+    }
+}
+
+/*======= BLOG SECTION =========*/
+#blogImg{
+    background: url('../img/hipster-stuff.jpg') 50% 0 repeat fixed;
+    min-height: 20vh;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#BlogH1{
+    margin-top: 10vh;
+}
+
+.post {
+    position: relative;
+    border: solid 1px #ddd;
+    background: white;
+    margin: 10px 0 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.post-inside{
+    position: relative;
+    border: solid 1px #ddd;
+    background: #F9F8F9;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.header-post{
+    padding: 10px;
+    border-radius: 1px;
+    font-size: 14px;
+}
+.post-excerpt{
+    position: relative;
+    padding: 2vh;
+}
+.post-details{
+    padding: 0.5vh;
+    font-size: 12px;
+    width: calc(100%-5px);
+}
+.post-image{
+    padding: 0.5vh;
+    height: auto;
+}
+.glyphicon{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/*======== COMMENTS ========*/
+.post-comments-badge{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #79b044;
+    text-align: center;
+    padding: 5px 5px 5px 1px;
+    display: table;
+    vertical-align: center;
+}
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
+}
+.post-comments-badge span.glyphicon{
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 3px;
+}
+.post-comments-badge span.glyphicon:hover{
+    color: #79b055;
+}
+
+.widget{
+    min-width: 29vh;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: calc(100% -50%);
+    -webkit-border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-bottom: solid 1px #ddd;
+    background:white;
+}
+.btn-success{
+    padding: 5px ;
+    height: 100%;
+    width: 100% !important;
+    font-family: 'proxima-nova', 'Raleway', Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.form-group{
+    min-height: 5vh;
+    min-width: calc(100% - 40px);
+}
+.btn{
+    font-size: 18px;
+}
